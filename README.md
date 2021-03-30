@@ -2,9 +2,9 @@
 Detecting and modeling the grammatical structures of English, Spanish, French, and Sanskrit, in order to switch the order of inputted text in one language to the grammatical stylings of another language.
 
 
-# Hour breakdown:
+    # Hour breakdown:
   
-  3/28: Brainstorm possible projects to pitch at Monday office hours (Catherine & Megan) -- 0.5 hours
+     3/28: Brainstorm possible projects to pitch at Monday office hours (Catherine & Megan) -- 0.5 hours
   
   3/29 (10:30am): Discussed ideas with Lakshmi in morning office hours (Megan) -- 0.5 hours
   
