@@ -13,3 +13,10 @@ Hour breakdown:
   3/29 (7:20pm): Talked to Lakshi in office hours about new idea. Got idea of feasibility and what to research. Cut short because I had a Grubhub order (tacos). (Megan) -- 0.5 hours
   
   3/30: Created this Github and wrote up project proposal rought draft (Megan) -- 1 hour
+  
+  
+  Running Total: 4.5 hours
+      
+      Megan: 4.5 hours
+      
+      Catherine: 1.5 hours
