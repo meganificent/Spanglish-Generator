@@ -15,7 +15,7 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     3/30: Created this Github and wrote up project proposal rought draft (Megan) -- 1 hour
   
   
-    <i>Running Total: 4.5 hours</i>
+<i>Running Total: 4.5 hours</i>
       
     Megan: 4.5 hours
       
