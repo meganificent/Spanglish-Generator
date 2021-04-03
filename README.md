@@ -13,6 +13,7 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     3/29 (7:20pm): Talked to Lakshi in office hours about new idea. Got idea of feasibility and what to research. Cut short because I had a Grubhub order (tacos). (Megan) -- 0.5 hours
   
     3/30: Created this Github and wrote up project proposal rought draft (Megan) -- 1.5 hour
+    4/3: Researched POS models (Megan) -- 1 hour
   
   
 <i>Running Total (for our reference only, will delete @ end): 5 hours</i>
