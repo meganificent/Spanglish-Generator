@@ -15,8 +15,8 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     3/30: Created this Github and wrote up project proposal rought draft (Megan) -- 1.5 hour
     4/3: Researched POS models (Megan) -- 1 hour
     4/4: Researched Natural Language Toolkit, POS models, and chunking (Catherine) -- 1 hr
-    4/4: Pair Programmed downloading NLTK and beginning POS Models in Spanish and Sanskrit, Catherine drove, couldn't push to github will figure out in office hours how to commit from colab (Catherine & Megan) --3 hours each
-    4/5: Tried to download github repo for use in Colab (didn't figure it out yet). Also researched how to train NLTK corpuses. (Megan 6:30-7:30pm) --1 hour
+    4/4 (4:00pm): Pair Programmed downloading NLTK and beginning POS Models in Spanish and Sanskrit, Catherine drove, couldn't push to github will figure out in office hours how to commit from colab (Catherine & Megan) --3 hours each
+    4/5 (6:30pm): Tried to download github repo for use in Colab (didn't figure it out yet). Also researched how to train NLTK corpuses. (Megan) --1 hour
   
   
 <i>Running Total (for our reference only, will delete @ end): 5 hours</i>
