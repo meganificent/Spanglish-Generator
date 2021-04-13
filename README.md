@@ -19,10 +19,12 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/5 (6:30pm): Tried to download github repo for use in Colab (didn't figure it out yet). Also researched how to train NLTK corpuses. (Megan) --1 hour
     4/6 (6-7pm): waiting in line for office hours (Catherine) - 1hr
     4/9 (10-11pm): researching sanskrit computational linguisticss (Catherine) - 1hr
+    4/10 (4:30-5:30): figured out how to push to github!! (Megan and Catherine) - 1hr each
+    4/11 (7-8:30): office hours to figure out spaghetti/ spanish tagger (Megan and Catherine) - 1.5 hrs each
   
   
 <i>Running Total (for our reference only, will delete @ end): 5 hours</i>
       
-    Megan: 9 hours
+    Megan: 11.5 hours
       
-    Catherine: 7.5 hours
+    Catherine: 10 hours
