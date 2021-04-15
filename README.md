@@ -21,10 +21,12 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/9 (10-11pm): researching sanskrit computational linguisticss (Catherine) - 1hr
     4/10 (4:30-5:30): figured out how to push to github!! (Megan and Catherine) - 1hr each
     4/11 (7-8:30): office hours to figure out spaghetti/ spanish tagger (Megan and Catherine) - 1.5 hrs each
+    4/14 (3:30-4:30): trying out sanskrit tagging (Catherine) - 1hr
+    4/14 (8-9:30): pair programming, working on Spanish tagger ideas and figuring out googletrans (Megan and Catherine) - 1.5 hrs each
   
   
 <i>Running Total (for our reference only, will delete @ end): 5 hours</i>
       
-    Megan: 11.5 hours
+    Megan: 13 hours
       
-    Catherine: 10 hours
+    Catherine: 12.5 hours
