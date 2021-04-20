@@ -29,10 +29,11 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/19 (9-11pm): Modified spanglishMachine() and created toSpanishStyle() and toEnglishStyle(). Added 2 grammar rules to toSpanishStyle() (Megan) - 2 hrs
     4/20 (12-2:30am): Continued work on toSpanishStyle(), adding 3 new grammar rules and brainstorming a 4th (Megan) - 2.5 hrs
     4/20 (3-4:30am): toSpanishStyle(): added step 3.5 for longer sentences. Looked carefully at Spanish POS tags and tried to discern different letter meanings. Added a step for moving adjectives before nouns in toEnglishStyle() (Megan) - 1.5 hours
+    4:20 (11am-1:30pn): added another rule to toSpanishStyle() to account for possessive nouns. Also created getStartNoun() to streamline some code. (Megan) - 2.5 hrs
   
   
 <i>Running Total (for our reference only, will delete @ end): 5 hours</i>
       
-    Megan: 26 hours
+    Megan: 28.5 hours
       
     Catherine: 19.5 hours
