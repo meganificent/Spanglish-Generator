@@ -32,11 +32,11 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4:20 (11am-1:30pm): added another rule to toSpanishStyle() to account for possessive nouns. Also created getStartNoun() to streamline some code. (Megan) - 2.5 hrs
     4:20(1:30-3pm): added bunch of pronoun stuff to toSpanishStyle() (Megan) - 1.5 hrs
     4/20 (3:45-4:15): talking through project plans, brainstorming next steps of project, and how to do user input (Megan and Catherine) -- .5 hrs
-    4/20 (4:30-5pm): user input research (Catherine) -- .5 hrs
+    4/20 (4:30-5:30pm): user input research (Catherine) -- 1 hr
   
   
 <i>Running Total (for our reference only, will delete @ end)
       
     Megan: 30.5 hours
       
-    Catherine: 20.5 hours
+    Catherine: 21 hours
