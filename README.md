@@ -27,10 +27,11 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/19 (7-8:30pm): Office hours to try to display syntax trees and work on main function (Megan and Catherine) - 1.5 hrs
     4/19 (9-11pm): Figured out PyCharm and made function that can display syntax trees with chunks in PyCharm!! (Catherine) - 2 hrs
     4/19 (9-11pm): Modified spanglishMachine() and created toSpanishStyle() and toEnglishStyle(). Added 2 grammar rules to toSpanishStyle() (Megan) - 2 hrs
+    4/10 (12-2:30am): Continued work on toSpanishStyle(), adding 3 new grammar rules and brainstorming a 4th (Megan) - 2.5 hrs
   
   
 <i>Running Total (for our reference only, will delete @ end): 5 hours</i>
       
-    Megan: 22 hours
+    Megan: 24.5 hours
       
     Catherine: 19.5 hours
