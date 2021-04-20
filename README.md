@@ -25,10 +25,12 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/14 (8-9:30): pair programming, working on Spanish tagger ideas and figuring out googletrans (Megan and Catherine) - 1.5 hrs each
     4/15 (1:45-2:45): figured out how to translate from Spanish to English and resolved translator problems (Catherine) - 1hr
     4/17 (7-9:30pm): wrote chunk parsing syntax tree code and starting trying to create a virtual display in colab (Catherine) - 2.5hrs
+    4/19 (7-8:30): Office hours to try to display syntax trees and work on main function (Megan and Catherine) - 1.5 hrs
+    4/19 (9-11): Figured out PyCharm and made function that can display syntax trees with chunks in PyCharm!! (Catherine) - 2 hrs
   
   
 <i>Running Total (for our reference only, will delete @ end): 5 hours</i>
       
     Megan: 13 hours
       
-    Catherine: 16 hours
+    Catherine: 19.5 hours
