@@ -31,12 +31,12 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/20 (3-4:30am): toSpanishStyle(): added step 3.5 for longer sentences. Looked carefully at Spanish POS tags and tried to discern different letter meanings. Added a step for moving adjectives before nouns in toEnglishStyle() (Megan) - 1.5 hours
     4:20 (11am-1:30pm): added another rule to toSpanishStyle() to account for possessive nouns. Also created getStartNoun() to streamline some code. (Megan) - 2.5 hrs
     4:20(1:30-3pm): added bunch of pronoun stuff to toSpanishStyle() (Megan) - 1.5 hrs
-    4/20 (3:45-4:15): talking through project plans, brainstorming next steps of project, and how to do user input (Megan and Catherine) -- .5 hrs
-    4/20 (4:30-5:30pm): user input research (Catherine) -- 1 hr
-  
+    4/20 (3:45-4:15): talking through project plans, brainstorming next steps of project, and how to do user input (Megan and Catherine) - .5 hrs
+    4/20 (4:30-5:30pm): user input research (Catherine) - 1 hr
+    4/20 (7:00-8:30): fixed bugs in toSpanishStyle() and worked with Catherine a little bit to figure out a display tree typo (Megan) - 1.5 hours
   
 <i>Running Total (for our reference only, will delete @ end)
       
-    Megan: 30.5 hours
+    Megan: 32 hours
       
     Catherine: 21 hours
