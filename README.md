@@ -34,9 +34,10 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/20 (3:45-4:15): talking through project plans, brainstorming next steps of project, and how to do user input (Megan and Catherine) - .5 hrs
     4/20 (4:30-5:30pm): user input research (Catherine) - 1 hr
     4/20 (7:00-8:30): fixed bugs in toSpanishStyle() and worked with Catherine a little bit to figure out a display tree typo (Megan) - 1.5 hours
+    4/20 (6pm-12:30am): worked in pycharm (copied code to bottom of colab) to do user input of sentence in syntax tree function and began making pycharm game to pisplay spanglish generator; initialized the game and made text in it, then began working on converting .ps file of syntax tree to .png file to display in pygame (Catherine) -- 6.5 hrs
   
 <i>Running Total (for our reference only, will delete @ end)
       
     Megan: 32 hours
       
-    Catherine: 21 hours
+    Catherine: 27.5 hours
