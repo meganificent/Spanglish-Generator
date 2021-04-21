@@ -39,9 +39,11 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/21 (8-9:30am): Researched more about how to use pygame and different tools and things you can implement in it (Catherine) - 1.5 hrs
     4/21 (9:30am-1:30pm): figured out how to convert .ps to .png (took so long oh my goodness had to figure out ghostscript and reinstall python), got syntax tree image onto pygame, and then spent rest of time figuring out how to center images and and place them in different locations on the screen (Catherine) - 4 hrs
     4/21 (2:30-4:30pm): started toEnglishStyle() (Megan) - 2 hrs
+    4/21 (5:00-5:30pm): called Catherine to find an error in her code (Megan) - 0.5 hours
+    4/21 (5:30-ongoing): Megan does stuff
   
 <i>Running Total (for our reference only, will delete @ end)
       
-    Megan: 35.5 hours
+    Megan: 35.5? hours
       
     Catherine: 33 hours
