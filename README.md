@@ -1,6 +1,32 @@
 # Language-Style-Transfer
-Detecting and modeling the grammatical structures of English, Spanish, French, and Sanskrit, in order to switch the order of inputted text in one language to the grammatical stylings of another language.
 
+Recieve input of either an English or Spanish phrase and translate the phrase into the grammar stylings of the other language. Used Natural Language Toolkit (NLTK) to detect the POS structure of English sentences and Spaghetti Tagger github repository to detect POS structure of Spanish Sentences. Wrote code to manually rearrange POS of sentences to resemble that of the other language.
+
+# spanglishMarker()
+
+Main function. Recieves a string and eventually returns an array of tuples. Each tuple's index 0 contains a string of the corresponding word in the sentence and index 1 contains a string code corresponding to the part of speech.
+
+* Uses google translate to determine the source language
+* If src = English --> tag using NLTK --> toSpanishStyle(tagged sentence)
+* If src = Spanish --> tag using Spaghetti Tagger --> toEnglishStyle(tagged sentence)
+
+# English --> Spanish
+
+## toSpanishStyle()
+
+Take in a tagged array and returns a tagged array. More details in the comments of the code, but in general focusses on variations between English and Spanish ordering of pronouns, nouns, possessives, and objects. Uses getStartNoun() to find the beginning index of any noun clump (the largest possible being determiner + adjective + noun + noun) for use in moving nouns arouund verbs and each other.
+
+## getStartNoun()
+
+Just explained this
+
+# Spanish --> English
+
+This code is much less involved than the other, largely because Spaghetti Tagger pulls from a lot fewer words than NLTK. For example, while Spaghetti tagger correctly detects "bonita" as a singular adjective, it doesn't detect "bonita**_s_** as an adjective at all. This proved frustrating. We eventually decided that it wasn't worth putting too much time into this part of the code if Spaghetti Tagger was only going to detect grammatically correct Spanish sentences half the time, but the code still has some functionality. Namely, it switches adjectives to the beginning of verbs, creates attributive nouns by switching noun formats from noun1 + "de" + noun2 to noun2 + noun1, models English possessive nouns by switching possessed noun + "de" + possessor noun to possessor noun + "'de" (a distinct tuple we made with an index 1 of "POS," corresponding to the NLTK code for possessive nouns, and finally
+
+
+# Illegal chuck pattern
+* VB + PRP + TO + PRP
 
 <i>Hour breakdown:</i>
   
