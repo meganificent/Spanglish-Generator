@@ -57,6 +57,11 @@ Here are the 10 rules in some, with some of the nicher ones explained:
 * Rule 8: remove Attributive Nouns ------ coffee cup --> taza de café --> cup of coffee
 * Rule 9: If "not" or "n't" after verb, move "not" to before verb ------- I'm not happy --> no soy feliz --> Not am happy
 * Rule 10: VB + IN/TO + PRP --> PRP + VB ----- along the same lines as the other pronoun rules, but had to add at end to avoid messing with the other steps
+
+sources:
+* https://www.thoughtco.com/grammatical-differences-between-spanish-and-english-4119326#:~:text=Word%20order%20is%20less%20fixed,subjunctive%20mood%20than%20English%20does.
+* my intimidatingly powerful knowledge (high school AP Spanish)
+
 ## getStartNoun()
 
 Just explained this
