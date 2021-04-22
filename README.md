@@ -1,6 +1,20 @@
 # Language-Style-Transfer
 
-Recieve input of either an English or Spanish phrase and translate the phrase into the grammar stylings of the other language. Used Natural Language Toolkit (NLTK) to detect the POS structure of English sentences and Spaghetti Tagger github repository to detect POS structure of Spanish Sentences. Wrote code to manually rearrange POS of sentences to resemble that of the other language.
+Recieve input of either an English or Spanish phrase and translate the phrase into the grammar stylings of the other language. Used Natural Language Toolkit (NLTK) to detect the POS structure of English sentences and Spaghetti Tagger github repository to detect POS structure of Spanish Sentences. Wrote code to manually rearrange POS of sentences to resemble that of the other language. Used Pygame to display the results of the language style transfer. When the code is run in Pycharm, the user is asked to input a sentence of up to or around 13 words. Then a display window pops up of, made with Pygame, which displays the original sentence and its syntax tree (with chunks that display when certain parts of speech are in a certain order, based on English grammar rules we switched to Spanish in the main function). The pygame also displays the Spanglish sentence and its syntax tree (with chunks based on the rules we implemented in our code. 
+
+# Must install or already have these packages on your computer (based on mac) and have python 3.9 installed on computer. use pip3 install in order to install necessary packages
+
+os
+sys
+numpy
+IPython
+nltk
+pygame
+googletrans==3.1.0a0 --> MUST BE THIS VERSION (NOT googletrans) OR TRANSLATOR AND OTHER CODE WILL NOT WORK
+spaghetti
+ghostscript --> MUST HAVE THE LASTEST VERSION OF PYTHON INSTALLED OR YOU WILL GET AN ERROR WHEN TRYING TO CONVERT .ps FILES OF SYNTAX TREES TO .png
+
+
 
 # spanglishMarker()
 
@@ -27,6 +41,16 @@ This code is much less involved than the other, largely because Spaghetti Tagger
 
 # Illegal chuck pattern
 * VB + PRP + TO + PRP
+
+# syntaxTreeGenerator()
+This function creates a syntax tree with chunks of various parts of speech defined from English grammar rules. The input is the original sentence inputed by the user, which is tokenized and tagged in the funciton, and the output is a syntax tree image using NLTK toolkit, which is saved to a .ps file and converted to a .png file. Can only be run in pycharm, not colab (which cannot make display windows)
+
+# spanglishSyntaxTreeGenerator()
+This function creates a syntax tree like the original sentence one, but the input it the array made by the spanglishMachine function, and the chunks are based on Spanish grammar rules from the above functions. It is also saved to a .ps file and converted to a .png file. Can only be run in pycharm, not colab (which cannot make display windows)
+
+# Pygame Display
+We used the pygame toolkit to display the various aspects of our project! We run this in pycharm, since colab can't make display windows. The pygame shows an image of all of the NLTK POS tags on the left. On the right, the original sentence (labelled) is read in from the text files created within the spanglishMachine function. Below it is the image of the syntax tree for the original sentence (labelled). Then the same two aspects are shown below that for the Spanglish sentence and syntax tree. The longer a user-inputed sentence is, the farther to the left it is displayed. 
+
 
 <i>Hour breakdown:</i>
   
@@ -69,9 +93,10 @@ This code is much less involved than the other, largely because Spaghetti Tagger
     4/21 (5:30-8:30): Created changeSpanTags() and added to toEnglishStyle() (Megan) - 3 hours
     4/21 (8:30-9:00pm): Called Catherine to discuss POS groups she needs to chunk to create syntax trees (Megan) - 0.5 hrs
     4/21 (9:00-10:00pm): Last touches on toEnglishStyle() and Cleaning up Collab (Megan) - 1 hr
+    4/21 (2pm-2am): Oh my goodness so much: first figured out how to download the original and Spanglish sentences as text files, then how to read those into the pygame display, made a new syntax tree function for the spanglish sentence and Megan helped pair program that while I drove, made chunks in the chunk parsers in the syntax tree functions based on all of the syntax rules for English and Spanish, debugged code, moved everything around a lot on the pygame display window, tested out sentences, made it so the stuff on the right of the display window moves to the left the longer the sentence inputted is, the phone calls that Megan descibed above, and commenting all of my code (Catherine) - 12 hours
   
 <i>Running Total (for our reference only, will delete @ end)
       
     Megan: 39.5 hours
       
-    Catherine: 33 hours
+    Catherine: 45 hours
