@@ -27,6 +27,7 @@ To see syntax trees for English --> Spanish:
 To see what's been done with Spanish --> English:
 
 * Type a spanish string into spanglishMachine() the cell at the top of the colab and run it
+* You can also go to both the "Testing" folders to try out my sentences I used to develop the rules code :)
 
 
 
