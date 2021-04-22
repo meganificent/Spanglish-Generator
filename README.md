@@ -4,15 +4,29 @@ Recieve input of either an English or Spanish phrase and translate the phrase in
 
 # Must install or already have these packages on your computer (based on mac) and have python 3.9 installed on computer. use pip3 install in order to install necessary packages
 
-os
-sys
-numpy
-IPython
-nltk
-pygame
-googletrans==3.1.0a0 --> MUST BE THIS VERSION (NOT googletrans) OR TRANSLATOR AND OTHER CODE WILL NOT WORK
-spaghetti
-ghostscript --> MUST HAVE THE LASTEST VERSION OF PYTHON INSTALLED OR YOU WILL GET AN ERROR WHEN TRYING TO CONVERT .ps FILES OF SYNTAX TREES TO .png
+* PyCharm CC
+* os
+* sys
+* numpy
+* IPython
+* nltk
+* pygame
+* googletrans==3.1.0a0 --> MUST BE THIS VERSION (NOT googletrans) OR TRANSLATOR AND OTHER CODE WILL NOT WORK
+* spaghetti
+* ghostscript --> MUST HAVE THE LASTEST VERSION OF PYTHON INSTALLED OR YOU WILL GET AN ERROR WHEN TRYING TO CONVERT .ps FILES OF SYNTAX TREES TO .png
+
+# TO RUN THE CODE
+
+To see syntax trees for English --> Spanish:
+
+* Copy and Paste the entire PyCharm cell from the COLAB document into a PyCharm file
+* Run the code
+* Wait for prompting
+* Type in an English sentence
+
+To see what's been done with Spanish --> English:
+
+* Type a spanish string into spanglishMachine() the cell at the top of the colab and run it
 
 
 
@@ -30,13 +44,29 @@ Main function. Recieves a string and eventually returns an array of tuples. Each
 
 Take in a tagged array and returns a tagged array. More details in the comments of the code, but in general focusses on variations between English and Spanish ordering of pronouns, nouns, possessives, and objects. Uses getStartNoun() to find the beginning index of any noun clump (the largest possible being determiner + adjective + noun + noun) for use in moving nouns arouund verbs and each other.
 
+Here are the 10 rules in some, with some of the nicher ones explained:
+
+* Rule 1: Move possessive nouns after what they possess ------ Alvin's book --> libro de Alvin --> book of Alvin
+* Rule 2: Put noun after Verb When It's a Verb applied to the second noun in the Sentence (because switch more common with long sentences) ------ although not a requirement in Spanish, this is not a uncommon practice in spanishto switch up sentence structure ------ I don't remember the moment in which Sarah wrote --> No recuerdo el momento en que escribió Sarah --> I don't remember the moment in which wrote Sarah
+* Rule 3: verb + pronoun1 + preposition + pronoun2 --> pronoun 2 + pronoun 1 + verb ------ Sarah wrote it for me --> Sara me lo escribió --> sarah me it wrote
+* Rule 4: Remove Pronouns Directly Before Conjugated Verbs If not 2 or 3 pronoun group before verb ------ because of how verbs are conjugated, pronoun subjects are rarely needed. However, when there are pronouns at the beginning of the verb denoting objects, this can become confusing, so pronouns are kept as subjects in this case.
+* Rule 5: Noun + Verb + Pronoun --> Pronoun + Verb + Noun ------ Another not required rule in Spanish but appropriate for the project, this is a convention in Spanish poetry so that sentences end on the most salient word. ------ Bridget wrote it --> It escribió Bridget --> It wrote Bridget
+* Rule 6: Adjective + Noun --> Noun + Adjective ------ blue eyes --> ojos azules --> eyes blue
+* Rule 7: "The" Before Every Non-Proper Noun ------ this is just a thing in Spanish
+* Rule 8: remove Attributive Nouns ------ coffee cup --> taza de café --> cup of coffee
+* Rule 9: If "not" or "n't" after verb, move "not" to before verb ------- I'm not happy --> no soy feliz --> Not am happy
+* Rule 10: VB + IN/TO + PRP --> PRP + VB ----- along the same lines as the other pronoun rules, but had to add at end to avoid messing with the other steps
 ## getStartNoun()
 
 Just explained this
 
 # Spanish --> English
 
-This code is much less involved than the other, largely because Spaghetti Tagger pulls from a lot fewer words than NLTK. For example, while Spaghetti tagger correctly detects "bonita" as a singular adjective, it doesn't detect "bonita**_s_** as an adjective at all. This proved frustrating. We eventually decided that it wasn't worth putting too much time into this part of the code if Spaghetti Tagger was only going to detect grammatically correct Spanish sentences half the time, but the code still has some functionality. Namely, it switches adjectives to the beginning of verbs, creates attributive nouns by switching noun formats from noun1 + "de" + noun2 to noun2 + noun1, models English possessive nouns by switching possessed noun + "de" + possessor noun to possessor noun + "'de" (a distinct tuple we made with an index 1 of "POS," corresponding to the NLTK code for possessive nouns, and finally
+This code is much less involved than the other, largely because Spaghetti Tagger pulls from a lot fewer words than NLTK. For example, while Spaghetti tagger correctly detects "bonita" as a singular adjective, it doesn't detect "bonita**_s_** as an adjective at all. This proved frustrating. We eventually decided that it wasn't worth putting too much time into this part of the code if Spaghetti Tagger was only going to detect grammatically correct Spanish sentences half the time, but the code still has some functionality. Namely, it:
+* Rule 1: switches adjectives to the beginning of verbs
+* Rule 2 pt. 1: creates attributive nouns by switching noun formats from noun1 + "de" + noun2 to noun2 + noun1
+* Rule 2 pt. 2: models English possessive nouns by switching possessed noun + "de" + possessor noun to possessor noun + "'de" (a distinct tuple we made with an index 1 of "POS," corresponding to the NLTK code for possessive nouns
+* Rule 3: uses conjugation of verbs to add pronoun subjects before verbs that lack subjects
 
 
 # Illegal chuck pattern
@@ -94,9 +124,10 @@ We used the pygame toolkit to display the various aspects of our project! We run
     4/21 (8:30-9:00pm): Called Catherine to discuss POS groups she needs to chunk to create syntax trees (Megan) - 0.5 hrs
     4/21 (9:00-10:00pm): Last touches on toEnglishStyle() and Cleaning up Collab (Megan) - 1 hr
     4/21 (2pm-2am): Oh my goodness so much: first figured out how to download the original and Spanglish sentences as text files, then how to read those into the pygame display, made a new syntax tree function for the spanglish sentence and Megan helped pair program that while I drove, made chunks in the chunk parsers in the syntax tree functions based on all of the syntax rules for English and Spanish, debugged code, moved everything around a lot on the pygame display window, tested out sentences, made it so the stuff on the right of the display window moves to the left the longer the sentence inputted is, the phone calls that Megan descibed above, and commenting all of my code (Catherine) - 12 hours
+    4/21 (10:00pm-3:30am): fixing all the mistakes I made in my tiredness. Then added to ReadM. Then added more rules to toSpanishStyle() cause I felt like it. Probably the new meds lol (Megan) - 5.5 hrs
   
 <i>Running Total (for our reference only, will delete @ end)
       
-    Megan: 39.5 hours
+    Megan: 45.5 hours
       
     Catherine: 45 hours
