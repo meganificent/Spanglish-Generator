@@ -19,6 +19,7 @@ Recieve input of either an English or Spanish phrase and translate the phrase in
 
 To see syntax trees for English --> Spanish:
 
+* <b>Make sure that the file pathways in the PyCharm are correct for your computer</b>
 * Copy and Paste the entire PyCharm cell from the COLAB document into a PyCharm file
 * Run the code
 * Wait for prompting
@@ -74,17 +75,15 @@ This code is much less involved than the other, largely because Spaghetti Tagger
 * Rule 2 pt. 2: models English possessive nouns by switching possessed noun + "de" + possessor noun to possessor noun + "'de" (a distinct tuple we made with an index 1 of "POS," corresponding to the NLTK code for possessive nouns
 * Rule 3: uses conjugation of verbs to add pronoun subjects before verbs that lack subjects
 
+# Syntax trees
 
-# Illegal chuck pattern
-* VB + PRP + TO + PRP
-
-# syntaxTreeGenerator()
+## syntaxTreeGenerator()
 This function creates a syntax tree with chunks of various parts of speech defined from English grammar rules. The input is the original sentence inputed by the user, which is tokenized and tagged in the funciton, and the output is a syntax tree image using NLTK toolkit, which is saved to a .ps file and converted to a .png file. Can only be run in pycharm, not colab (which cannot make display windows)
 
-# spanglishSyntaxTreeGenerator()
+## spanglishSyntaxTreeGenerator()
 This function creates a syntax tree like the original sentence one, but the input it the array made by the spanglishMachine function, and the chunks are based on Spanish grammar rules from the above functions. It is also saved to a .ps file and converted to a .png file. Can only be run in pycharm, not colab (which cannot make display windows)
 
-# Pygame Display
+## Pygame Display
 We used the pygame toolkit to display the various aspects of our project! We run this in pycharm, since colab can't make display windows. The pygame shows an image of all of the NLTK POS tags on the left. On the right, the original sentence (labelled) is read in from the text files created within the spanglishMachine function. Below it is the image of the syntax tree for the original sentence (labelled). Then the same two aspects are shown below that for the Spanglish sentence and syntax tree. The longer a user-inputed sentence is, the farther to the left it is displayed. 
 
 
