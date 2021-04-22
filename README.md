@@ -132,9 +132,3 @@ We used the pygame toolkit to display the various aspects of our project! We run
     4/21 (10:00pm-3:30am): fixing all the mistakes I made in my tiredness. Then added to ReadM. Then added more rules to toSpanishStyle() cause I felt like it. Probably the new meds lol (Megan) - 5.5 hrs
     4/22 (2-3:30am): final touches, project description in ReadMe, final touches on project plan google doc, copying code from pyCharm to colab and trying to get spanish to english to work in pycharm but abandoning it because spaghetti wasn't working properly on my computer through pycharm (Catherine) - 1.5 hrs
     4/22 (3:30-4:00am): Last touches. Everything burns. (Megan) - 0.5 hrs
-  
-<i>Running Total (for our reference only, will delete @ end)
-      
-    Megan: 45.5 hours
-      
-    Catherine: 46.5 hours
