@@ -130,9 +130,10 @@ We used the pygame toolkit to display the various aspects of our project! We run
     4/21 (9:00-10:00pm): Last touches on toEnglishStyle() and Cleaning up Collab (Megan) - 1 hr
     4/21 (2pm-2am): Oh my goodness so much: first figured out how to download the original and Spanglish sentences as text files, then how to read those into the pygame display, made a new syntax tree function for the spanglish sentence and Megan helped pair program that while I drove, made chunks in the chunk parsers in the syntax tree functions based on all of the syntax rules for English and Spanish, debugged code, moved everything around a lot on the pygame display window, tested out sentences, made it so the stuff on the right of the display window moves to the left the longer the sentence inputted is, the phone calls that Megan descibed above, and commenting all of my code (Catherine) - 12 hours
     4/21 (10:00pm-3:30am): fixing all the mistakes I made in my tiredness. Then added to ReadM. Then added more rules to toSpanishStyle() cause I felt like it. Probably the new meds lol (Megan) - 5.5 hrs
+    4/22 (2-3:30am): final touches, project description in ReadMe, final touches on project plan google doc, copying code from pyCharm to colab and trying to get spanish to english to work in pycharm but abandoning it because spaghetti wasn't working properly on my computer through pycharm (Catherine) - 1.5 hrs
   
 <i>Running Total (for our reference only, will delete @ end)
       
     Megan: 45.5 hours
       
-    Catherine: 45 hours
+    Catherine: 46.5 hours
