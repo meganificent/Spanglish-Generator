@@ -41,9 +41,11 @@ Detecting and modeling the grammatical structures of English, Spanish, French, a
     4/21 (2:30-4:30pm): started toEnglishStyle() (Megan) - 2 hrs
     4/21 (5:00-5:30pm): called Catherine to find an error in her code (Megan) - 0.5 hours
     4/21 (5:30-8:30): Created changeSpanTags() and added to toEnglishStyle() (Megan) - 3 hours
+    4/21 (8:30-9:00pm): Called Catherine to discuss POS groups she needs to chunk to create syntax trees (Megan) - 0.5 hrs
+    4/21 (9:00-10:00pm): Last touches on toEnglishStyle() and Cleaning up Collab (Megan) - 1 hr
   
 <i>Running Total (for our reference only, will delete @ end)
       
-    Megan: 38 hours
+    Megan: 39.5 hours
       
     Catherine: 33 hours
