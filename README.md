@@ -31,7 +31,7 @@ To see what's been done with Spanish --> English:
 
 
 
-# spanglishMarker()
+# spanglishMaker()
 
 Main function. Recieves a string and eventually returns an array of tuples. Each tuple's index 0 contains a string of the corresponding word in the sentence and index 1 contains a string code corresponding to the part of speech.
 
